@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(IMAGES/booksBG.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    margin-top: -39px;
+}
+#imgo {
+    margin: 1px;
+    margin-left: 27px;
+    margin-top: 37px;
+   
+}
+.navigation {
+    float: right;
+    margin: 100px;
+    margin-top: 63px;
+    margin-right: 25px;
+}
+.navigation a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid cornsilk;
+    padding: 10px; 
+}
+
+.navigation a:hover{
+    background-color:teal;
+    color: black;
+    
+}
+.side{
+    /* border: 2px  black; */
+   color: rgb(255, 255, 255);
+    margin: 29px;
+    width: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+}
+.side h3{
+    margin-bottom: 10px;
+}
+
+.side li{
+    list-style: square;
+    padding: 2px;
+}
+.Login
+{
+    border: 1px solid rgb(185, 29, 29);
+    float: right;
+    background-color:bisque;
+    margin-top: 0px;
+    margin-right: 20px; 
+    height: 13em; 
+    width: 10em; 
+    padding: 30px;
+}
+#btn{
+    background-color: rgb(12, 15, 216);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 8%;
+}
+.Login{
+    text-align: center;
+}
+.container{
+    margin-top: 450px;
+    margin-left: 60px;
+}
+.pbox
+{
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    width: 22%;
+    background-color:rgb(146, 143, 140);
+    height: 13em;
+    margin-top: -41px;
+    margin-right: 15px; 
+    margin-left: 5px;
+    padding: 5px;  
+}
+.pbox h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pbox p{
+    text-align: justify;
+}
+.pbox a{
+    color: red;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 48%;
+    height: 1.5em;
+   
+}
